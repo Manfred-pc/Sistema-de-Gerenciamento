@@ -16,6 +16,8 @@ function addToTable() {
   let cell4 = row.insertCell(3);
   let cell5 = row.insertCell(4);
   let cell6 = row.insertCell(5);
+
+
   row.id = tableSize; //Adicionando o id no elemento a ser criado
 
   //Criando o codigo do botão para remover a linha
@@ -25,7 +27,9 @@ function addToTable() {
   cell1.innerHTML = tableSize;
   cell2.innerHTML = name;
   cell3.innerHTML = email;
+
   cell4.innerHTML = phone;
+
   cell5.innerHTML = work;
   cell6.innerHTML = btnCode;
 
